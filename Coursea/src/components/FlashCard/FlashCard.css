@@ -1,0 +1,12 @@
+.flashcard{
+    width: 25%;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flashcard img{
+    width: 200px;
+    height: 150px;
+}
