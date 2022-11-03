@@ -1,0 +1,50 @@
+.navbar{
+    background-color: aqua;
+    line-height: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding:25px;
+}
+
+.navbar a:hover{
+    color: gray;
+}
+
+.icon{
+    position: relative;
+}
+
+.icon::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    z-index: 0;
+}
+.icon span{
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    top: -5px;
+    left: 15px;
+    z-index: 1;
+}
+
+.icon h4{
+    display: inline;
+    position: relative;
+    left: 30px;
+}
